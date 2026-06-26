@@ -15,7 +15,7 @@ This repository is intentionally small. Production releases publish a Swift Pack
 
 ## Installation
 
-The production `Package.swift` in this repository is updated by the Unloq release workflow. After the first production release is published, install the SDK from this repository using Swift Package Manager.
+The production `Package.swift` in this repository is updated by the Unloq release workflow. Install the SDK from this repository using Swift Package Manager.
 
 In Xcode:
 
@@ -67,7 +67,7 @@ let options = UnloqOptions(
 UNQOffers.initialize(options: options)
 ```
 
-Set the current user before rendering offers:
+Set the current user before rendering vouchers/offers:
 
 ```swift
 let user = User(
