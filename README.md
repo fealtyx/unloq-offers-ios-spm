@@ -1,21 +1,23 @@
 # Unloq Offers iOS SDK
 
-Official Swift Package Manager distribution for the Unloq Offers iOS SDK.
+Official Swift Package Manager and CocoaPods distribution for the Unloq Offers iOS SDK.
 
 Unloq Offers helps iOS apps show personalized offer and voucher experiences at key moments in the user journey, such as before checkout or after a successful activity.
 
-This repository is intentionally small. Production releases publish a Swift Package manifest that points to the signed binary SDK artifact hosted by Unloq. The SDK source is maintained separately by Unloq.
+This repository is intentionally small. Production releases publish package metadata that points to the signed binary SDK artifact hosted by Unloq. The SDK source is maintained separately by Unloq.
 
 ## Requirements
 
 - iOS 14.0+
 - Xcode 15+
-- Swift Package Manager
+- Swift Package Manager or CocoaPods
 - A valid Unloq partner entity id and API key
 
 ## Installation
 
-The production `Package.swift` in this repository is updated by the Unloq release workflow. Install the SDK from this repository using Swift Package Manager.
+Production releases update the `Package.swift` and `UnloqOffers.podspec` files in this repository. Both distribution methods install the same hosted `UnloqOffers.xcframework` binary.
+
+### Swift Package Manager
 
 In Xcode:
 
@@ -45,6 +47,16 @@ Then add the product to your target:
 
 ```swift
 .product(name: "UnloqOffers", package: "unloq-offers-ios-spm")
+```
+
+### CocoaPods
+
+For production releases, add the tagged distribution package to your `Podfile`:
+
+```ruby
+pod 'UnloqOffers',
+  :git => 'https://github.com/fealtyx/unloq-offers-ios-spm.git',
+  :tag => 'v1.0.0'
 ```
 
 ## Quick Start
@@ -137,7 +149,7 @@ This package follows semantic versioning.
 
 ## Binary Distribution
 
-The Swift package in this repository references a hosted `UnloqOffers.xcframework.zip` binary artifact. Swift Package Manager verifies the artifact checksum before integrating it into your project.
+The Swift package and podspec in this repository reference a hosted `UnloqOffers.xcframework.zip` binary artifact. Swift Package Manager and CocoaPods verify the artifact checksum before integrating it into your project.
 
 ## Support
 
