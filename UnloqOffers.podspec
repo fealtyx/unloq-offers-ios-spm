@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.summary = "Unloq Offers iOS SDK"
   s.description = "Unloq Offers iOS SDK distributed as a prebuilt XCFramework."
   s.homepage = "https://useunloq.com"
-  s.license = { :type => "Commercial", :text => "Copyright FealtyX. All rights reserved." }
-  s.author = { "FealtyX" => "techuser@useunloq.com" }
+  s.license = { :type => "Commercial", :text => "Copyright Unloq. All rights reserved." }
+  s.author = { "Unloq" => "techuser@useunloq.com" }
   s.platform = :ios, "14.0"
   s.swift_version = "5.8"
   s.source = {
