@@ -59,15 +59,6 @@ pod 'UnloqOffers',
   :tag => 'v1.0.0'
 ```
 
-For QA or release-candidate testing, use the generated CDN podspec URL:
-
-```ruby
-pod 'UnloqOffers',
-  :podspec => 'https://qa-sdk.useunloq.com/ios/swift/UnloqOffers/1.0.0-rc.1/UnloqOffers.podspec'
-```
-
-QA and RC builds do not update this repository. They publish temporary podspecs on the non-production CDN instead.
-
 ## Quick Start
 
 Import the SDK:
