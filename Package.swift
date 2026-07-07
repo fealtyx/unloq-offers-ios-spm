@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UnloqOffers",
-            url: "https://sdk.useunloq.com/ios/swift/UnloqOffers/1.0.0-rc.7/UnloqOffers.xcframework.zip",
-            checksum: "10e8a6eeacbafa23604b7f411887d0a839d74f855266935fc6cd9c5a82951f87"
+            url: "https://sdk.useunloq.com/ios/swift/UnloqOffers/1.0.0/UnloqOffers.xcframework.zip",
+            checksum: "48a5bd798b095d43e84487f26f1009bcc765a16d910d0207f132173797abaf4f"
         )
     ]
 )
