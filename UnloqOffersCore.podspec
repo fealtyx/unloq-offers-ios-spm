@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "UnloqOffersCore"
-  s.version = "2.0.0"
+  s.version = "2.0.1"
   s.summary = "Unloq Offers KMP Core SDK"
   s.description = "Unloq Offers KMP Core SDK distributed as a prebuilt XCFramework."
   s.homepage = "https://useunloq.com"
