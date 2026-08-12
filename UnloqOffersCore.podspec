@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "UnloqOffersCore"
-  s.version = "1.4.1"
+  s.version = "1.5.0"
   s.summary = "Unloq Offers KMP Core SDK"
   s.description = "Unloq Offers KMP Core SDK distributed as a prebuilt XCFramework."
   s.homepage = "https://useunloq.com"
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.platform = :ios, "14.0"
   s.swift_version = "5.8"
   s.source = {
-    :http => "https://sdk.useunloq.com/kmp/core/UnloqOffersCoreDynamic/1.4.1/UnloqOffersCore.xcframework.zip",
-    :sha256 => "147098728ff3d6ba5fe531231c084ba0ee53ca40df1535aa2a26619a6277619b"
+    :http => "https://sdk.useunloq.com/kmp/core/UnloqOffersCoreDynamic/1.5.0/UnloqOffersCore.xcframework.zip",
+    :sha256 => "68105aea8bcc09df9bca3bc091fe42e21490b048ee8e3894e86987014d0957dc"
   }
   s.vendored_frameworks = "UnloqOffersCore.xcframework"
 end
