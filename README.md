@@ -15,7 +15,7 @@ This repository is intentionally small. Production releases publish package meta
 
 ## Installation
 
-Production releases update `Package.swift` and the versioned specifications under `Specs/`. Both distribution methods install the same hosted binary SDK artifacts.
+Production releases update the `Package.swift` and `UnloqOffers.podspec` files in this repository. Both distribution methods install the same hosted `UnloqOffers.xcframework` binary.
 
 ### Swift Package Manager
 
@@ -51,12 +51,12 @@ Then add the product to your target:
 
 ### CocoaPods
 
-For production releases, add the SDK version to your `Podfile`:
+For production releases, add the tagged distribution package to your `Podfile`:
 
 ```ruby
-source 'https://github.com/fealtyx/unloq-offers-ios-spm.git'
-
-pod 'UnloqOffers', '2.5.5'
+pod 'UnloqOffers',
+  :git => 'https://github.com/fealtyx/unloq-offers-ios-spm.git',
+  :tag => 'v1.0.0'
 ```
 
 ## Quick Start
@@ -149,7 +149,7 @@ This package follows semantic versioning.
 
 ## Binary Distribution
 
-The Swift package and podspecs in this repository reference hosted XCFramework ZIP artifacts. Swift Package Manager and CocoaPods verify the artifact checksums before integrating them into your project.
+The Swift package and podspec in this repository reference a hosted `UnloqOffers.xcframework.zip` binary artifact. Swift Package Manager and CocoaPods verify the artifact checksum before integrating it into your project.
 
 ## Support
 
