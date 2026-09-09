@@ -16,13 +16,13 @@ let package = Package(
     targets: [
         .binaryTarget(
           name: "UnloqOffers",
-          url: "https://sdk.useunloq.com/ios/swift/UnloqOffers/2.5.8/UnloqOffers.xcframework.zip",
-          checksum: "df3458e5048b6c87b88380ffe13de833c7d9a4d540ee92960a262d0617732a14"
+          url: "https://sdk.useunloq.com/ios/swift/UnloqOffers/2.5.9/UnloqOffers.xcframework.zip",
+          checksum: "e66aaa307f2612e03b5e41b43633aa9a62ae05b1a5fab5c31a6ad3a64f25c5f6"
       ),
       .binaryTarget(
           name: "UnloqOffersCore",
-          url: "https://sdk.useunloq.com/kmp/core/UnloqOffersCoreDynamic/1.5.7/UnloqOffersCore.xcframework.zip",
-          checksum: "dae1f07f395980b3b7b9341af44470a2e4e0e7fa770ddaff0692240df3346747"
+          url: "https://sdk.useunloq.com/kmp/core/UnloqOffersCoreDynamic/1.5.8/UnloqOffersCore.xcframework.zip",
+          checksum: "5c4ffd449bb58fe311815e2ac21cd7b1f143167249a59382c59faca0b12ad978"
       )
     ]
 )
